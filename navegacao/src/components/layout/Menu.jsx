@@ -11,12 +11,23 @@ const Menu = (props) => (
 
                 </li>
                 <li>
+                    <Link to="/param/123" >Param #01</Link>
+
+                </li>
+                <li>
+                    <Link to="/param/legal" >Param #02</Link>
+
+                </li>
+                <li>
                     <Link to="/about" >Sobre</Link>
                 </li>
+                <li>
+                    <Link to="/nao_encontrada" >Não encontrada</Link>
+                </li>
             </ul>
-        </nav>
+        </nav >
 
-    </aside>
+    </aside >
 )
 
 export default Menu
